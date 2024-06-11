@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   description: "A psicóloga Andreia Taufner, oferece terapia individualizada para crianças, adolescentes e adultos em Vila Velha/ES.",
   keywords: ["Andreia Taufner - Psicóloga Clínica", "Vila Velha", "cidade Vila Velha", "ES", "Estado do Espírito Santo", "Psicóloga Clínica em Vila Velha/ES", "Terapia", "Terapia em Vila Velha/ES", "Psicoterapia", "Psicoterapia em Vila Velha/ES", "Ansiedade", "Depressão", "Psicoterapia para depressão", "Autoconhecimento", "Psicoterapia para autoconhecimento", "Desenvolvimento pessoal", "Psicoterapia para Desenvolvimento pessoal", "Psicoterapia infantil", "Psicoterapia para adolescentes", "Psicoterapia para adultos", "Psicoterapia para ansiedade", "Psicoterapia para depressão", "Desenvolvimento infantil", "Psicoterapia para oDesenvolvimento infantil", "Problemas comportamentais", "Psicoterapia para TDAH", "Abordagens inovadoras", "Terapia individualizada", "Ambiente acolhedor", "Psicóloga Qualificada", "Psicóloga Empática", "Psicóloga de confiança"],
   openGraph: {
-    title: "Psicóloga Andreia Taufner - Vila Velha/ES",
-    description: "A psicóloga Andreia Taufner, oferece terapia individualizada para crianças, adolescentes e adultos em Vila Velha/ES.",
+    title: "Psicóloga Andreia Taufner",
+    description: "Psicóloga Clínica de crianças, adolescentes e adultos em Vila Velha/ES.",
     url: "https://www.psicologaandreiataufner.com.br",
     siteName: "Psicóloga Andreia Taufner",
     images: [
