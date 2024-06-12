@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header className={`${headerActive ? 'h-[100px]' : 'h-[124px]'} fixed w-full h-[100px] top-0 z-50 bg-backgroundColor-100 transition-all`}>
-      <div className="px-[24px] mx-auto h-full flex items-center justify-between xl:max-w-[1400px]">
+      <div className="px-[15px] md:px-[24px] mx-auto h-full flex items-center justify-between xl:max-w-[1400px]">
         <Link href='/'>
           <Image src={'/assets/logo.svg'} width={164} height={72} alt="Logo da Psicóloga Andreia Taufner" />
         </Link>
