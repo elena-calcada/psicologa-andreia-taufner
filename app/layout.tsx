@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { DM_Sans, Poppins } from "next/font/google";
 import "./globals.css";
@@ -53,7 +55,9 @@ export default function RootLayout({
   return (
     <html lang="pt-Br" className="bg-gray-200">
       <body className={`${dm_sans.variable} ${poppins.variable} w-full max-w-[1920px] mx-auto bg-white`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

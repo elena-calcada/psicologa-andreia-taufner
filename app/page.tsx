@@ -1,15 +1,21 @@
-import Image from "next/image";
+import Aboult from "@/components/Aboult";
+import Areas from "@/components/Areas";
+import Clinic from "@/components/Clinic";
+import Contact from "@/components/Contact";
+import InPersonService from "@/components/InPersonService";
+import OnlineService from "@/components/OnlineService";
+import Start from "@/components/Start";
 
 export default function Home() {
   return (
     <main>
-      <div className="h-screen flex flex-col items-center justify-center bg-backgroundColor-100 p-4">
-        <Image src={"/assets/logo.svg"} width={360} height={158} alt="Logo" />
-        <div>
-          <h1 className="text-center text-3xl mb-4 mt-4 text-titleColor">Psicóloga Andreia Taufner</h1>
-          <h2 className="text-center text-2xl">Em construção...</h2>
-        </div>
-      </div>
+      <Start />
+      <Aboult />
+      <Areas />
+      <OnlineService />
+      <InPersonService />
+      <Clinic />
+      <Contact />
     </main>
   );
 }
