@@ -1,5 +1,6 @@
 "use client"
 import { linksNav } from "@/utils/linksNav";
+import { useMediaQuery } from "react-responsive";
 import { Link as ScrollLink } from "react-scroll";
 import SocialNav from "./SocialNav";
 
@@ -9,6 +10,10 @@ interface Props {
 }
 
 const MobileNav = ({ containerStyles, onClickCloseNav }: Props) => {
+  const isMobile = useMediaQuery({
+    query: '(max-width: 1279px)'
+  })
+
   return (
     <nav className={`${containerStyles}`}>
       {linksNav.map((link, index) => {
@@ -18,9 +23,9 @@ const MobileNav = ({ containerStyles, onClickCloseNav }: Props) => {
             to={link.target}
             smooth
             spy
-            activeClass="active"
+            activeClass={`${!isMobile && 'active'}`}
             key={index}
-            className="cursor-pointer hover:text-backgroundImgColor transition-all"
+            className="cursor-pointer"
             onClick={onClickCloseNav}
           >
             {link.name}
