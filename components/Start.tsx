@@ -9,7 +9,7 @@ const Start = () => {
       <div className="flex flex-col gap-10 h-full mx-auto pt-56 2xl:pt-64 px-[15px] md:px-[24px] xl:max-w-[1400px]">
         <div className="flex flex-col gap-8">
           <motion.h1
-            className="h1 xl:text-[128px]"
+            className="h1 xs:!text-7xl xl:text-[128px]"
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
@@ -18,7 +18,7 @@ const Start = () => {
             Andreia Taufner
           </motion.h1>
           <motion.p
-            className="p !text-titleColor !text-xl !font-medium max-w-[500px] lg:max-w-[700px] lg:!text-2xl"
+            className="p !text-titleColor !text-xl !font-medium max-w-[500px] xs:max-w-[400px] lg:max-w-[700px] lg:!text-2xl"
             variants={fadeIn("up", 0.6)}
             initial="hidden"
             whileInView={"show"}
