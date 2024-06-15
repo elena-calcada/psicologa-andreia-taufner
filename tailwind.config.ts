@@ -26,7 +26,7 @@ const config: Config = {
     },
     backgroundImage: {
       "home-desktop": 'url(/assets/image-home-desktop.png)',
-      "home-mobile": 'url(/assets/image-home-mobile)',
+      "home-mobile": 'url(/assets/image-home-mobile.png)',
     },
     extend: {
       colors: {

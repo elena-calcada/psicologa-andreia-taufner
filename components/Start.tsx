@@ -5,7 +5,7 @@ import LinkButtom from "./LinkButton"
 
 const Start = () => {
   return (
-    <section className="h-[calc(80vh+8rem)] bg-home-desktop bg-cover bg-center bg-no-repeat" id="home">
+    <section className="h-[calc(80vh+8rem)] bg-home-mobile bg-cover bg-center bg-no-repeat sm:bg-home-desktop " id="home">
       <div className="flex flex-col gap-10 h-full mx-auto pt-56 2xl:pt-64 px-[15px] md:px-[24px] xl:max-w-[1400px]">
         <div className="flex flex-col gap-8">
           <motion.h1
