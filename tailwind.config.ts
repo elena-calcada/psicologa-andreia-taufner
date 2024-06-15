@@ -12,17 +12,20 @@ const config: Config = {
       padding: '15px'
     },
     screens: {
+      'xs': { max: "639px" },
       sm: '640px',
+      'sm-max': { max: "767px" },
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      '2xl': '1440px'
     },
     fontFamily: {
       dm_sans: 'var(--font-dm_sans)',
       poppins: 'var(--font-poppins)'
     },
     backgroundImage: {
-      "home-desktop": 'url(/assets/image-home-desktop)',
+      "home-desktop": 'url(/assets/image-home-desktop.png)',
       "home-mobile": 'url(/assets/image-home-mobile)',
     },
     extend: {

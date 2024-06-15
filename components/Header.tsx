@@ -31,7 +31,7 @@ const Header = () => {
     <header className={`${headerActive ? 'h-[100px]' : 'h-[124px]'} fixed w-full h-[100px] top-0 z-50 bg-backgroundColor-100 transition-all`}>
       <div className="px-[15px] md:px-[24px] mx-auto h-full flex items-center justify-between xl:max-w-[1400px]">
         <Link href='/'>
-          <Image src={'/assets/logo.svg'} width={164} height={72} alt="Logo da Psicóloga Andreia Taufner" />
+          <Image src={'/assets/logo.svg'} width={180} height={79} alt="Logo da Psicóloga Andreia Taufner" />
         </Link>
 
         <MobileNav onClickCloseNav={handleCloseNav} containerStyles={`${headerActive ? 'top-[90px]' : 'top-[124px]'} ${openNav ? 'max-h-max pt-8 pb-10 border-t border-black/10' : 'max-h-0 pt-0 pb-0 overflow-hidden border-black/0'} bg-backgroundColor-100 w-full left-0 flex flex-col gap-6 text-center fixed text-base text-titleColor font-bold transition-all xl:hidden`} />
