@@ -10,6 +10,7 @@ import SocialNav from "./SocialNav"
 const Header = () => {
   const [headerActive, setHeaderActive] = useState(false)
   const [openNav, setOpenNav] = useState(false)
+  const [shadow, setShadow] = useState(false)
 
   async function handleCloseNav() {
     setOpenNav(false)
@@ -27,8 +28,19 @@ const Header = () => {
     }
   }, [])
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 50) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+    }
+    window.addEventListener("scroll", handleShadow)
+  }, [])
+
   return (
-    <header className={`${headerActive ? 'h-[100px]' : 'h-[124px]'} fixed w-full h-[100px] top-0 z-50 bg-backgroundColor-100 transition-all`}>
+    <header className={`${headerActive ? 'h-[100px]' : 'h-[124px]'} ${shadow ? 'fixed w-full h-[100px] top-0 z-50 bg-backgroundColor-100 transition-all shadow-lg' : 'fixed w-full h-[100px] top-0 z-50 bg-backgroundColor-100 transition-all'}`}>
       <div className="px-[15px] md:px-[24px] lg:px-[48px] mx-auto h-full flex items-center justify-between xl:max-w-[1400px]">
         <Link href='/'>
           <Image src={'/assets/logo.svg'} width={180} height={79} alt="Logo da Psicóloga Andreia Taufner" />
