@@ -19,7 +19,7 @@ const Areas = () => {
         <div className="grid grid-cols-6 gap-6">
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 0.4)}
+            variants={fadeIn("up", 0.45)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -43,7 +43,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 0.6)}
+            variants={fadeIn("up", 0.55)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -55,7 +55,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 0.7)}
+            variants={fadeIn("up", 0.6)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -67,7 +67,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 0.8)}
+            variants={fadeIn("up", 0.65)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -79,7 +79,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 0.9)}
+            variants={fadeIn("up", 0.7)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -91,7 +91,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 1)}
+            variants={fadeIn("up", 0.75)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -103,7 +103,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 1.1)}
+            variants={fadeIn("up", 0.8)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -115,7 +115,7 @@ const Areas = () => {
           </motion.div>
           <motion.div
             className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-            variants={fadeIn("up", 1.2)}
+            variants={fadeIn("up", 0.85)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
