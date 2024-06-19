@@ -25,7 +25,7 @@
   }
 
   .h3 {
-    @apply text-[32px];
+    @apply text-[28px];
   }
 
   .h4 {
@@ -43,4 +43,8 @@
 
 .active {
   @apply text-backgroundImgColor;
+}
+
+.container {
+  @apply w-full py-20 px-[15px] md:px-[24px] lg:px-[48px] lg:max-w-[1400px]
 }

@@ -7,14 +7,11 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    container: {
-      center: true,
-      padding: '15px'
-    },
     screens: {
       'xs': { max: "639px" },
       sm: '640px',
       'sm-max': { max: "767px" },
+      'sm-lg': { min: '640px', max: '1023px' },
       md: '768px',
       lg: '1024px',
       xl: '1280px',
@@ -27,6 +24,8 @@ const config: Config = {
     backgroundImage: {
       "home-desktop": 'url(/assets/image-home-desktop.png)',
       "home-mobile": 'url(/assets/image-home-mobile.png)',
+      dividertOne: "linear-gradient(90deg, #12514A 0%, rgba(72, 123, 114, 0) 100%)",
+      dividerTwo: "linear-gradient(270deg, #12514A 0%, rgba(72, 123, 114, 0) 100%)"
     },
     extend: {
       colors: {
