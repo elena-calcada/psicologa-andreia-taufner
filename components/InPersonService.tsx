@@ -9,7 +9,7 @@ const InPersonService = () => {
       <section className="bg-white flex items-center justify-center" id="in-person-service">
         <div className="container">
           <motion.h2
-            className="h2 !mb-24 text-center"
+            className="h2 !mb-20 text-center"
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
