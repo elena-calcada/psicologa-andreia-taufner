@@ -13,7 +13,9 @@ const config: Config = {
       'sm-max': { max: "767px" },
       'sm-lg': { min: '640px', max: '1023px' },
       md: '768px',
+      'md-max': { max: '1023px' },
       lg: '1024px',
+      'lg-max': { max: '1279px' },
       xl: '1280px',
       '2xl': '1440px'
     },

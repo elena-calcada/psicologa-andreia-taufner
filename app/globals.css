@@ -48,3 +48,13 @@
 .container {
   @apply w-full py-20 px-[15px] md:px-[24px] lg:px-[48px] lg:max-w-[1400px]
 }
+
+.swiper-pagination-bullet {
+  opacity: 0.8 !important;
+  background: #6DC9CA !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #12514A !important;
+}

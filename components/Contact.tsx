@@ -1,7 +1,11 @@
 const Contact = () => {
   return (
-    <section className="h-[80vh] bg-red-300" id="contact">
-      Contact
+    <section className="bg-white flex items-center justify-center" id="contact">
+      <div className="container">
+        <h2 className="h2 text-center">
+          Contato
+        </h2>
+      </div>
     </section>
   )
 }
