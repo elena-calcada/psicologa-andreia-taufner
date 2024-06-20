@@ -20,7 +20,7 @@ const InPersonService = () => {
           <div className="w-full relative flex flex-col gap-8 items-center justify-center lg:flex-row lg:gap-16">
 
             <motion.div
-              className={"relative w-[322px] h-[293px] xs:w-[282px] xs:h-[304px]"}
+              className={"relative w-[322px] h-[293px]"}
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
