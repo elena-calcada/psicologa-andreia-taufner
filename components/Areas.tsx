@@ -10,7 +10,7 @@ const Areas = () => {
       <section className="flex items-center justify-center bg-white" id="areas">
         <div className="container flex flex-col items-center justify-center">
           <motion.h2
-            className="h2 text-center"
+            className="h2 !mb-14 text-center"
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}

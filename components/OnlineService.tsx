@@ -26,12 +26,12 @@ const OnlineService = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] rounded-[0.25rem]" />
+              <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] lg:top-[-8%] lg:right-[8%] rounded-[0.25rem]" />
               <Image
                 src="/assets/image-online.png"
                 layout="fill" objectFit="cover"
                 alt="A imagem mostra a psicóloga Andéia Taufner com cabelo ruivo encaracolado, usando óculos e uma blusa verde e preta. Ela está sorrindo para a câmera."
-                className="z-40"
+                className="z-40 shadow-xl"
               />
             </motion.div>
             <motion.div
