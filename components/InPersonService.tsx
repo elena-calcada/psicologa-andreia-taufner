@@ -26,7 +26,7 @@ const InPersonService = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] lg:top-[-8%] lg:right-[8%] rounded-[0.25rem]" />
+              <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] lg:top-[-8%] lg:right-[8%] rounded-[0.5rem]" />
               <Image
                 src="/assets/image-in-person.png"
                 layout="fill" objectFit="cover"
