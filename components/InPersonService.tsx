@@ -31,7 +31,7 @@ const InPersonService = () => {
                 src="/assets/image-in-person.png"
                 layout="fill" objectFit="cover"
                 alt="A imagem mostra a psicóloga Andéia Taufner com cabelo ruivo encaracolado, usando óculos e uma blusa verde e preta. Ela está sorrindo para a câmera."
-                className="z-40 rounded-[0.25rem] shadow-xl"
+                className="z-40 rounded-[0.25rem] shadow-lg"
               />
             </motion.div>
             <motion.div
