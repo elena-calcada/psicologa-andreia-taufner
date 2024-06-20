@@ -9,7 +9,7 @@ const OnlineService = () => {
       <section className="bg-backgroundColor-100 flex items-center justify-center" id="online-service">
         <div className="container">
           <motion.h2
-            className="h2 !mb-20 text-center"
+            className="h2 !mb-18 text-center"
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
@@ -17,16 +17,16 @@ const OnlineService = () => {
           >
             Atendimento online
           </motion.h2>
-          <div className="w-full relative flex flex-col gap-8 items-center justify-center lg:flex-row lg:gap-16">
+          <div className="w-full relative flex flex-col gap-8 items-center justify-center lg:flex-row-reverse lg:gap-16">
 
             <motion.div
-              className={"relative w-[322px] h-[293px]"}
+              className={"relative w-[322px] h-[347px]"}
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <div className="absolute bg-backgroundImgColor w-full h-full top-[-10%] right-[8%] rounded-[0.25rem]" />
+              <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] rounded-[0.25rem]" />
               <Image
                 src="/assets/image-online.png"
                 layout="fill" objectFit="cover"

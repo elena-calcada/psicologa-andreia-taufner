@@ -27,7 +27,7 @@ const Aboult = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <div className="absolute bg-backgroundImgColor w-full h-full top-[-8%] right-[8%] rounded-[0.25rem]" />
+              <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] rounded-[0.25rem]" />
               <Image
                 src="/assets/image-aboult.png"
                 layout="fill" objectFit="cover"
