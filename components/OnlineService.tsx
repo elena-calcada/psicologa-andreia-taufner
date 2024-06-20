@@ -20,7 +20,7 @@ const OnlineService = () => {
           <div className="w-full relative flex flex-col gap-8 items-center justify-center lg:flex-row-reverse lg:gap-16">
 
             <motion.div
-              className={"relative w-[290px] h-[313px] xs:w-[282px] xs:h-[304px]"}
+              className={"relative w-[322px] h-[293px] xs:w-[282px] xs:h-[304px]"}
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
@@ -28,10 +28,10 @@ const OnlineService = () => {
             >
               <div className="absolute bg-backgroundImgColor w-full h-full top-[-6%] right-[6%] lg:top-[-8%] lg:right-[8%] rounded-[0.5rem]" />
               <Image
-                src="/assets/image-online.png"
+                src="/assets/image-online.jpg"
                 layout="fill" objectFit="cover"
                 alt="A imagem mostra a psicóloga Andéia Taufner com cabelo ruivo encaracolado, usando óculos e uma blusa verde e preta. Ela está sorrindo para a câmera."
-                className="z-40 shadow-lg"
+                className="z-40 shadow-lg rounded-[0.5rem]"
               />
             </motion.div>
             <motion.div
