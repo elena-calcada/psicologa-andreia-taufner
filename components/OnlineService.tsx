@@ -20,7 +20,7 @@ const OnlineService = () => {
           <div className="w-full relative flex flex-col gap-8 items-center justify-center lg:flex-row-reverse lg:gap-16">
 
             <motion.div
-              className={"relative w-[322px] h-[347px]"}
+              className={"relative w-[305px] h-[329px] xs:w-[282px] xs:h-[304px]"}
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
