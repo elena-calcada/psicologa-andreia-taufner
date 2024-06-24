@@ -19,7 +19,7 @@ const ClinicSlider = () => {
           spaceBetween: 30
         }
       }}
-      className="lg-max:max-w-[500px] xl:max-w-[800px]"
+      className="max-w-[381px] xl:max-w-[800px]"
     >
       {clinicImages.map((item, index) => {
         return (
@@ -30,7 +30,7 @@ const ClinicSlider = () => {
                 alt={item.alt}
                 width={381}
                 height={315}
-                className="z-40 shadow-lg"
+                className="z-40 shadow-lg rounded-[0.5rem]"
               />
             </div>
           </SwiperSlide>
