@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <section className="bg-white flex flex-col items-center justify-center lg:flex-row" id="contact">
-        <div className="container flex flex-col gap-[4rem] justify-center items-center lg:flex-row lg:gap-16">
+        <div className="container flex flex-col gap-[2rem] justify-center items-center lg:flex-row lg:gap-16">
           <div className="flex flex-col items-center justify-center lg:items-start">
             <motion.h2
               className="text-titleColor text-5xl mb-[3rem]"
