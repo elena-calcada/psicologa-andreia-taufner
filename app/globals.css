@@ -25,7 +25,7 @@
   }
 
   .h3 {
-    @apply text-[28px];
+    @apply text-[32px];
   }
 
   .h4 {
@@ -37,7 +37,7 @@
   }
 
   .p {
-    @apply text-base text-fontColor font-normal
+    @apply text-base text-fontColor font-normal font-dm_sans
   }
 }
 
