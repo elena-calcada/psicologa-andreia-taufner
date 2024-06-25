@@ -21,7 +21,7 @@ const Aboult = () => {
           <div className="w-full relative flex flex-col gap-8 items-center justify-center lg:flex-row lg:gap-16">
 
             <motion.div
-              className={"relative w-[322px] h-[293px]"}
+              className={"relative w-[322px] h-[293px] lg:w-[370px] lg:h-[336px]"}
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
@@ -43,13 +43,16 @@ const Aboult = () => {
               viewport={{ once: false, amount: 0.2 }}
             >
               <p className="p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.
+                Sou Psicóloga, CRP 16/09385, com experiência em atendimentos clínicos e psicodiagnóstico. Atendo crianças, adolescentes e adultos.
               </p>
               <p className="p">
-                In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed.
+                Aprecio a simplicidade, a natureza, gosto de artesanato e de estar comigo mesma. Gosto também de desafios, de ir além. Sou bastante investigativa e costumo transpor o que está posto em busca de respostas. Acho sempre melhor usar vírgulas e interrogações, pois as afirmações podem sugerir ponto final.
               </p>
               <p className="p">
-                In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed.
+                Amo estudar e não me canso de aprender. Faço constantemente cursos de formação, capacitação, atualização e aprimoramento técnico-científico dentro das variadas áreas da Psicologia. Atendo de forma presencial, no meu consultório, ou online. Em meus atendimentos, priorizo sempre o bem-estar do paciente, considerando o objetivo a ser alcançado com a terapia. Estou inteiramente atenta e disponível para uma escuta empática e utilizo técnicas terapêuticas que irão auxiliar a pessoa a superar dificuldades e viver uma vida mais plena, saudável e satisfatória.
+              </p>
+              <p className="p">
+                Tenho capacitação em: Gestalt Terapia com Crianças pelo Instituto Dialógico – RJ; Clínica e Diagnóstico Multidisciplinar em Saúde Mental pela Escola Nova Psiquê - RJ; Terapia Cognitiva Comportamental para Crianças e Adolescentes pela CICLO-CEAP; Técnicas de Treinamento de Pais para Crianças e Adolescentes pela CICLO-CEAP; Desenvolvimento do Raciocínio Clinico em Avaliação Psicológica pelo Instituto Persona.
               </p>
             </motion.div>
           </div>
