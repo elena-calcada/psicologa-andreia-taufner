@@ -1,7 +1,7 @@
 "use client"
 import { fadeIn } from "@/utils/variants"
 import { motion } from "framer-motion"
-import LinkButtom from "./LinkButton"
+import WhatsappButton from "./WhatsappButton"
 
 const Start = () => {
   return (
@@ -33,8 +33,7 @@ const Start = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.2 }}
         >
-          <LinkButtom
-            href="https://wa.me/5527996173620?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
+          <WhatsappButton
             title="Entrar em contato"
             containerStyle=""
           />
