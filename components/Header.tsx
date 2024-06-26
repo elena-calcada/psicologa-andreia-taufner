@@ -48,7 +48,7 @@ const Header = () => {
 
         <MobileNav onClickCloseNav={handleCloseNav} containerStyles={`${headerActive ? 'top-[90px]' : 'top-[124px]'} ${openNav ? 'max-h-max pt-8 pb-10 border-t border-black/10' : 'max-h-0 pt-0 pb-0 overflow-hidden border-black/0'} bg-backgroundColor-100 w-full left-0 flex flex-col gap-6 text-center fixed text-base text-titleColor font-bold transition-all xl:hidden`} />
 
-        <Nav containerStyles="hidden xl:flex gap-4 text-base text-titleColor font-semibold" />
+        <Nav containerStyles="hidden xl:flex xl:items-center xl:justify-between gap-6 2xl:gap-8 text-base text-titleColor font-semibold" />
         <SocialNav onClickCloseNav={handleCloseNav} containerStyles="hidden xl:flex" />
 
         <button

@@ -5,8 +5,8 @@ import { LuInstagram, LuMapPin, LuPhone } from "react-icons/lu"
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-backgroundColor-300 flex items-center justify-center">
-      <div className="container flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-between lg:max-w-[1000px]">
+    <footer className="w-full bg-backgroundColor-300">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-between lg:max-w-[1000px]">
         <Link href='/'>
           <Image src={'/assets/logo.svg'} width={231} height={101} alt="Logo da Psicóloga Andreia Taufner" />
         </Link>
@@ -70,7 +70,20 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
 
+      <div className="w-full bg-primary">
+        <div className="w-full mx-auto px-[15px] md:px-[24px] lg:px-[48px] flex flex-col items-center justify-center py-2 lg:flex-row lg:justify-between lg:max-w-[1400px]">
+          <span
+            className="font-dm_sans text-white"
+          >
+            {new Date().getFullYear()} &copy; Andréia Cristina Taufner Gasparini
+          </span>
+          <span className="font-dm_sans text-white"
+          >
+            Todos os direitos reservados.
+          </span>
+        </div>
       </div>
     </footer>
   )

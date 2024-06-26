@@ -30,7 +30,7 @@ const OnlineService = () => {
               <Image
                 src="/assets/image-online.jpg"
                 layout="fill" objectFit="cover"
-                alt="A imagem mostra a psicóloga Andéia Taufner com cabelo ruivo encaracolado, usando óculos e uma blusa verde e preta. Ela está sorrindo para a câmera."
+                alt="Uma jovem sorridente usa fones de ouvido e olha para o seu telefone. Ela está sentada num sofá."
                 className="z-40 shadow-lg rounded-[0.5rem]"
               />
             </motion.div>
@@ -39,7 +39,7 @@ const OnlineService = () => {
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.1 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <p className="p">
                 Atualmente, a conexão digital tornou-se mais uma possibilidade para promover o bem-estar emocional e psicológico. A terapia online oferece algumas vantagens, como a facilidade de encurtar distâncias, poupar tempo com deslocamentos, a comodidade de estar no seu próprio ambiente e facilitar o acesso para pessoas com dificuldades de locomoção. Além disso, para algumas pessoas, é mais fácil se abrir e falar de si de forma virtual do que presencialmente.

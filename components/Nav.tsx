@@ -9,7 +9,7 @@ interface Props {
 
 const Nav = ({ containerStyles }: Props) => {
   return (
-    <div className="gap-24 items-center">
+    <div className="gap-24 items-center justify-center">
       <nav className={`${containerStyles}`}>
         {linksNav.map((link, index) => {
           return (
@@ -20,7 +20,7 @@ const Nav = ({ containerStyles }: Props) => {
               spy
               activeClass="active"
               key={index}
-              className="cursor-pointer hover:text-backgroundImgColor transition-all"
+              className="cursor-pointer hover:text-backgroundImgColor transition-all text-center max-w-[100px] text-[0.875rem] font-poppins font-medium leading-5"
             >
               {link.name}
             </ScrollLink>

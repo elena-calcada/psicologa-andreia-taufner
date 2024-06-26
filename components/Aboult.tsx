@@ -40,7 +40,7 @@ const Aboult = () => {
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.1 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <p className="p">
                 Sou Psicóloga, CRP 16/09385, com experiência em atendimentos clínicos e psicodiagnóstico. Atendo crianças, adolescentes e adultos.

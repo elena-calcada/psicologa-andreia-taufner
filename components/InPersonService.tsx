@@ -30,7 +30,7 @@ const InPersonService = () => {
               <Image
                 src="/assets/image-in-person.jpg"
                 layout="fill" objectFit="cover"
-                alt="A imagem mostra a psicóloga Andéia Taufner com cabelo ruivo encaracolado, usando óculos e uma blusa verde e preta. Ela está sorrindo para a câmera."
+                alt="Duas mulheres sentadas em um sofá, conversando. Uma delas está segurando uma xícara de café e a outra está segurando um tablet."
                 className="z-40 rounded-[0.5rem] shadow-lg"
               />
             </motion.div>
@@ -40,7 +40,7 @@ const InPersonService = () => {
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.1 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <p className="p">
                 Os atendimentos presenciais são realizados no consultório, um espaço que foi pensado com muito carinho para te receber, priorizando sempre o cuidado, o acolhimento e o seu bem-estar. Na terapia presencial, o contato face a face permite uma conexão mais profunda, facilitando a construção de uma relação terapêutica mais sólida, com trocas e experiências que somente podem ser vivenciadas de forma presencial. Presencialmente, o ambiente é controlado e oferece um espaço seguro e acolhedor, propício para a reflexão e o autoconhecimento. Além disso, ao sair de casa para ir à terapia, você pode experimentar um momento dedicado exclusivamente ao autocuidado, reforçando a importância de tirar um tempo para si mesmo.

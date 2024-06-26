@@ -4,6 +4,7 @@ import Clinic from "@/components/Clinic";
 import Contact from "@/components/Contact";
 import InPersonService from "@/components/InPersonService";
 import OnlineService from "@/components/OnlineService";
+import ProfessionalOrientation from "@/components/OrientationProfessional.tsx";
 import Start from "@/components/Start";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Areas />
       <OnlineService />
       <InPersonService />
+      <ProfessionalOrientation />
       <Clinic />
       <Contact />
     </main>

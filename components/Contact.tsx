@@ -101,7 +101,7 @@ const Contact = () => {
             variants={fadeIn("up", 0.8)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: false, amount: 0.05 }}
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2267.757909934178!2d-40.31071233165428!3d-20.33466411471005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83d8a6e4464e5%3A0x7e654d1b4a2ba642!2sR.%20Aimor%C3%A9s%2C%20227%20-%20Gl%C3%B3ria%2C%20Vila%20Velha%20-%20ES%2C%2029122-170!5e0!3m2!1spt-BR!2sbr!4v1719240660332!5m2!1spt-BR!2sbr"
