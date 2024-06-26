@@ -72,12 +72,12 @@ const Contact = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.google.com.br/maps/place/R.+Aimor%C3%A9s,+227+-+Gl%C3%B3ria,+Vila+Velha+-+ES,+29122-170/@-20.3346641,-40.3107123,17.72z/data=!4m15!1m8!3m7!1s0xb83d8a6e4464e5:0x7e654d1b4a2ba642!2sR.+Aimor%C3%A9s,+227+-+Gl%C3%B3ria,+Vila+Velha+-+ES,+29122-170!3b1!8m2!3d-20.3344499!4d-40.3095976!16s%2Fg%2F11c1dfdv67!3m5!1s0xb83d8a6e4464e5:0x7e654d1b4a2ba642!8m2!3d-20.3344499!4d-40.3095976!16s%2Fg%2F11c1dfdv67?entry=ttu"
+                  href="https://www.google.com/maps/place/R.+Aimor%C3%A9s,+256+-+Gl%C3%B3ria,+Vila+Velha+-+ES,+29122-170/@-20.3343468,-40.3099472,19z/data=!4m6!3m5!1s0xb83d8a68fc7b0b:0xdc1bcd29985806b1!8m2!3d-20.3344319!4d-40.309951!16s%2Fg%2F11y3rgxj53?entry=ttu"
                   target="_blank"
                   className="p flex gap-2"
                 >
                   <LuMapPin size={26} className="text-primary" />
-                  Rua Aimorés, 227, Glória, Vila Velha/ES
+                  Rua Aimorés, 256, Glória, Vila Velha/ES
                 </Link>
               </li>
             </motion.ul>
