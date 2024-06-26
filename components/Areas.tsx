@@ -24,7 +24,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.45)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
@@ -36,7 +36,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.5)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
@@ -48,7 +48,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.55)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
@@ -60,7 +60,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
@@ -72,7 +72,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.65)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
@@ -84,7 +84,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.7)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
@@ -96,7 +96,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.75)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
@@ -108,7 +108,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
@@ -120,7 +120,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.85)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
@@ -132,7 +132,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.9)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
@@ -144,7 +144,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.95)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
@@ -156,7 +156,7 @@ const Areas = () => {
               variants={fadeIn("up", 0.9)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
@@ -168,7 +168,7 @@ const Areas = () => {
               variants={fadeIn("up", 1.0)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.05 }}
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
