@@ -21,7 +21,7 @@ const Aboult = () => {
           <div className="w-full relative flex flex-col gap-8 items-center justify-center xl:flex-row xl:gap-16">
 
             <motion.div
-              className={"relative w-[322px] h-[293px] xs:w-[281px] xs:h-[256px] lg:w-[418px] lg:h-[380px]"}
+              className={"relative w-[322px] h-[293px] xs:w-[302px] xs:h-[275px] lg:w-[418px] lg:h-[380px]"}
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
