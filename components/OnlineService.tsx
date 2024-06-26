@@ -39,7 +39,7 @@ const OnlineService = () => {
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.1 }}
             >
               <p className="p">
                 Atualmente, a conexão digital tornou-se mais uma possibilidade para promover o bem-estar emocional e psicológico. A terapia online oferece algumas vantagens, como a facilidade de encurtar distâncias, poupar tempo com deslocamentos, a comodidade de estar no seu próprio ambiente e facilitar o acesso para pessoas com dificuldades de locomoção. Além disso, para algumas pessoas, é mais fácil se abrir e falar de si de forma virtual do que presencialmente.

@@ -34,12 +34,13 @@ const InPersonService = () => {
                 className="z-40 rounded-[0.5rem] shadow-lg"
               />
             </motion.div>
+
             <motion.div
               className="flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%]"
               variants={fadeIn("up", 0.8)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: false, amount: 0.1 }}
             >
               <p className="p">
                 Os atendimentos presenciais são realizados no consultório, um espaço que foi pensado com muito carinho para te receber, priorizando sempre o cuidado, o acolhimento e o seu bem-estar. Na terapia presencial, o contato face a face permite uma conexão mais profunda, facilitando a construção de uma relação terapêutica mais sólida, com trocas e experiências que somente podem ser vivenciadas de forma presencial. Presencialmente, o ambiente é controlado e oferece um espaço seguro e acolhedor, propício para a reflexão e o autoconhecimento. Além disso, ao sair de casa para ir à terapia, você pode experimentar um momento dedicado exclusivamente ao autocuidado, reforçando a importância de tirar um tempo para si mesmo.
