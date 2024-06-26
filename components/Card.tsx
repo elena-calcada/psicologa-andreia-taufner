@@ -7,7 +7,7 @@ interface Props {
 
 const Card = ({ containerStyle, area }: Props) => {
   return (
-    <div className={`${containerStyle} relative flex items-center justify-center min-w-[250px] max-w-[300px] h-[200px] rounded-[0.5rem] p-[15px] shadow-xl`}>
+    <div className={`${containerStyle} relative flex items-center justify-center min-w-[300px] max-w-[400px] h-[150px] rounded-[0.5rem] p-[15px] shadow-xl`}>
       <Image
         src={'/assets/butterfly.png'}
         alt="Borboleta como imagem de fundo"
@@ -15,7 +15,7 @@ const Card = ({ containerStyle, area }: Props) => {
         objectFit="cover"
         className="absolute inset-0 opacity-[0.08] z-30"
       />
-      <h3 className="h3 text-titleColor z-40 max-w-[200px] text-center">{area}</h3>
+      <h3 className="h3 text-titleColor z-40 max-w-[320px] text-center">{area}</h3>
     </div>
   )
 }

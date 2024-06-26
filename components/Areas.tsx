@@ -28,7 +28,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
-                area="Depressão"
+                area="Terapia Infantil"
               />
             </motion.div>
             <motion.div
@@ -40,7 +40,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
-                area="Ansiedade"
+                area="Terapia Adolescente"
               />
             </motion.div>
             <motion.div
@@ -52,7 +52,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
-                area="Burnout"
+                area="Terapia Adulto"
               />
             </motion.div>
             <motion.div
@@ -64,7 +64,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
-                area="Estresse"
+                area="Orientação de Pais e Responsáveis"
               />
             </motion.div>
             <motion.div
@@ -76,7 +76,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
-                area="Fobias"
+                area="Orientação Profissional"
               />
             </motion.div>
             <motion.div
@@ -88,7 +88,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
-                area="Psicologia Infantil"
+                area="TDAH"
               />
             </motion.div>
             <motion.div
@@ -100,7 +100,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
-                area="Orientação de Pais"
+                area="Transtornos/Distúrbios do Neurodesenvolvimento"
               />
             </motion.div>
             <motion.div
@@ -112,7 +112,7 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/15"
-                area="Orientação Profissional"
+                area="Depressão"
               />
             </motion.div>
             <motion.div
@@ -124,7 +124,55 @@ const Areas = () => {
             >
               <Card
                 containerStyle="bg-backgroundImgColor/30"
+                area="Transtornos de Ansiedade"
+              />
+            </motion.div>
+            <motion.div
+              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
+              variants={fadeIn("up", 0.9)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              <Card
+                containerStyle="bg-backgroundImgColor/15"
                 area="TOC"
+              />
+            </motion.div>
+            <motion.div
+              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
+              variants={fadeIn("up", 0.95)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              <Card
+                containerStyle="bg-backgroundImgColor/30"
+                area="Transtornos Relacionados a Traumas"
+              />
+            </motion.div>
+            <motion.div
+              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
+              variants={fadeIn("up", 0.9)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              <Card
+                containerStyle="bg-backgroundImgColor/15"
+                area="Distúrbios do Sono"
+              />
+            </motion.div>
+            <motion.div
+              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
+              variants={fadeIn("up", 1.0)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              <Card
+                containerStyle="bg-backgroundImgColor/30"
+                area="Distúrbios alimentares"
               />
             </motion.div>
           </div>
