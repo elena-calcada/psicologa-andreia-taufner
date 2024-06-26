@@ -89,7 +89,7 @@ const Contact = () => {
               viewport={{ once: false, amount: 0.2 }}
             >
               <LinkButtom
-                href="https://api.whatsapp.com/send?phone=+5527996173620&text=Olá, Andréia! Cheguei aqui   por meio do seu site. Gostaria de marcar uma consulta."
+                href="https://wa.me/5527996173620?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
                 title="Entrar em contato"
                 containerStyle=""
               />
