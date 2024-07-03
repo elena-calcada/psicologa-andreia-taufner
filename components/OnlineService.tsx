@@ -2,6 +2,7 @@
 import { fadeIn } from "@/utils/variants"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 import { DividerOne } from "./Dividers"
 const OnlineService = () => {
   return (
@@ -31,8 +32,15 @@ const OnlineService = () => {
                 src="/assets/image-online.jpg"
                 layout="fill" objectFit="cover"
                 alt="Uma jovem sorridente usa fones de ouvido e olha para o seu telefone. Ela está sentada num sofá."
-                className="z-40 shadow-lg rounded-[0.5rem]"
+                className="z-30 shadow-lg rounded-[0.5rem]"
               />
+              <Link
+                href="https://www.freepik.com/free-photo/young-happy-woman-having-fun-while-using-mobile-phone-reading-text-message-her-living-room_25910417.htm#fromView=search&page=1&position=22&uuid=c3b47b72-e5ff-41b6-a4e4-6c3dfadcf8e1"
+                target={'_blank'}
+                className="absolute z-40 bottom-0 right-1 font-dm_sans text-white text-[10px] opacity-25"
+              >
+                Image by freepik
+              </Link>
             </motion.div>
             <motion.div
               className="flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%]"

@@ -2,6 +2,7 @@
 import { fadeIn } from "@/utils/variants"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 import { DividerOne } from "./Dividers"
 const ProfessionalOrientation = () => {
   return (
@@ -31,8 +32,15 @@ const ProfessionalOrientation = () => {
                 src="/assets/image-op.jpg"
                 layout="fill" objectFit="cover"
                 alt="Um homem de pé de costas, com uma das mãos na cintura e a outra na cabeça, olhando para uma parede com luzes de bulbo, a procura de uma ideia brilhante."
-                className="z-40 shadow-lg rounded-[0.5rem]"
+                className="z-30 shadow-lg rounded-[0.5rem]"
               />
+              <Link
+                href="https://www.freepik.com/free-photo/man-touching-her-head-looking-bulbs_961386.htm#position=10"
+                target={'_blank'}
+                className="absolute z-40 bottom-0 right-1 font-dm_sans text-[10px] opacity-50"
+              >
+                Image by freepik
+              </Link>
             </motion.div>
             <motion.div
               className="flex flex-col gap-4 lg-xl:w-[80%] xl:w-[55%]"
