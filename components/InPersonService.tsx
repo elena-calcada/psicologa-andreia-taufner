@@ -37,7 +37,7 @@ const InPersonService = () => {
               <Link
                 href="https://www.freepik.com/free-photo/smiley-women-doing-radio-interview-together_11797778.htm#position=1"
                 target={'_blank'}
-                className="absolute z-40 bottom-0 right-1 font-dm_sans text-[10px] opacity-80"
+                className="absolute z-40 bottom-0 right-1 font-dm_sans text-[10px] text-white opacity-30"
               >
                 Image by freepik
               </Link>
