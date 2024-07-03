@@ -37,7 +37,7 @@ const ProfessionalOrientation = () => {
               <Link
                 href="https://www.freepik.com/free-photo/man-touching-her-head-looking-bulbs_961386.htm#position=10"
                 target={'_blank'}
-                className="absolute z-40 bottom-0 right-1 font-dm_sans text-[10px] opacity-50"
+                className="absolute z-40 bottom-0 right-1 font-dm_sans text-[10px] opacity-30"
               >
                 Image by freepik
               </Link>
