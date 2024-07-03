@@ -51,9 +51,6 @@ const Aboult = () => {
               <p className="p">
                 Amo estudar e não me canso de aprender. Faço constantemente cursos de formação, capacitação, atualização e aprimoramento técnico-científico dentro das variadas áreas da Psicologia. Atendo de forma presencial, no meu consultório, ou online. Em meus atendimentos, priorizo sempre o bem-estar do paciente, considerando o objetivo a ser alcançado com a terapia. Estou inteiramente atenta e disponível para uma escuta empática e utilizo técnicas terapêuticas que irão auxiliar a pessoa a superar dificuldades e viver uma vida mais plena, saudável e satisfatória.
               </p>
-              <p className="p">
-                Tenho capacitação em: Gestalt Terapia com Crianças pelo Instituto Dialógico – RJ; Clínica e Diagnóstico Multidisciplinar em Saúde Mental pela Escola Nova Psiquê - RJ; Terapia Cognitiva Comportamental para Crianças e Adolescentes pela CICLO-CEAP; Técnicas de Treinamento de Pais para Crianças e Adolescentes pela CICLO-CEAP; Desenvolvimento do Raciocínio Clinico em Avaliação Psicológica pelo Instituto Persona.
-              </p>
             </motion.div>
           </div>
         </div>
