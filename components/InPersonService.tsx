@@ -2,6 +2,7 @@
 import { fadeIn } from "@/utils/variants"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 import { DividerTwo } from "./Dividers"
 const InPersonService = () => {
   return (
@@ -31,8 +32,15 @@ const InPersonService = () => {
                 src="/assets/image-in-person.jpg"
                 layout="fill" objectFit="cover"
                 alt="Duas mulheres sentadas em um sofá, conversando. Uma delas está segurando uma xícara de café e a outra está segurando um tablet."
-                className="z-40 rounded-[0.5rem] shadow-lg"
+                className="z-30 rounded-[0.5rem] shadow-lg"
               />
+              <Link
+                href="https://www.freepik.com/free-photo/smiley-women-doing-radio-interview-together_11797778.htm#position=1"
+                target={'_blank'}
+                className="absolute z-40 bottom-0 right-1 font-dm_sans text-[10px] opacity-80"
+              >
+                Image by freepik
+              </Link>
             </motion.div>
 
             <motion.div
