@@ -16,7 +16,7 @@ const Footer = () => {
             Localização
           </h3>
           <div className="flex flex-col gap-1 justify-center items-center">
-            <span className="p">Rua Aimorés, 227</span>
+            <span className="p">Rua Aimorés, 256</span>
             <span className="p">Glória - Vila Velha/ES</span>
             <span className="p">CEP 29122-170 </span>
           </div>
