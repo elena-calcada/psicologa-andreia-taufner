@@ -18,7 +18,7 @@ const SocialNav = ({ containerStyles, onClickCloseNav }: Props) => {
       >
         <Link
           legacyBehavior
-          href="https://wa.me/5527999214912?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
+          href="https://wa.me/5527996173620?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
         >
           <a target="_blank" onClick={onClickCloseNav}>
             <MdWhatsapp className="h-7 w-7 text-primary" />

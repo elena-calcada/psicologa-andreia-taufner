@@ -21,18 +21,6 @@ const Areas = () => {
           <div className="grid grid-cols-6 gap-6">
             <motion.div
               className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-              variants={fadeIn("up", 0.45)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.05 }}
-            >
-              <Card
-                containerStyle="bg-backgroundImgColor/30"
-                area="Terapia Infantil"
-              />
-            </motion.div>
-            <motion.div
-              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
               variants={fadeIn("up", 0.5)}
               initial="hidden"
               whileInView={"show"}
@@ -63,13 +51,25 @@ const Areas = () => {
               viewport={{ once: false, amount: 0.05 }}
             >
               <Card
+                containerStyle="bg-backgroundImgColor/30"
+                area="Terapia Idosos"
+              />
+            </motion.div>
+            <motion.div
+              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
+              variants={fadeIn("up", 0.65)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.05 }}
+            >
+              <Card
                 containerStyle="bg-backgroundImgColor/15"
                 area="Orientação de Pais e Responsáveis"
               />
             </motion.div>
             <motion.div
               className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-              variants={fadeIn("up", 0.65)}
+              variants={fadeIn("up", 0.7)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.05 }}
@@ -81,7 +81,7 @@ const Areas = () => {
             </motion.div>
             <motion.div
               className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-              variants={fadeIn("up", 0.7)}
+              variants={fadeIn("up", 0.75)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.05 }}
@@ -89,18 +89,6 @@ const Areas = () => {
               <Card
                 containerStyle="bg-backgroundImgColor/15"
                 area="TDAH"
-              />
-            </motion.div>
-            <motion.div
-              className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-              variants={fadeIn("up", 0.75)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.05 }}
-            >
-              <Card
-                containerStyle="bg-backgroundImgColor/30"
-                area="Transtornos/Distúrbios do Neurodesenvolvimento"
               />
             </motion.div>
             <motion.div
@@ -153,7 +141,7 @@ const Areas = () => {
             </motion.div>
             <motion.div
               className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-              variants={fadeIn("up", 0.9)}
+              variants={fadeIn("up", 1)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.05 }}
@@ -165,7 +153,7 @@ const Areas = () => {
             </motion.div>
             <motion.div
               className="xs:col-span-6 sm-lg:col-span-3 lg:col-span-2"
-              variants={fadeIn("up", 1.0)}
+              variants={fadeIn("up", 1.05)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.05 }}

@@ -42,12 +42,12 @@ const Contact = () => {
             >
               <li>
                 <Link
-                  href="tel:+5527999214912"
+                  href="tel:+5527996173620"
                   target="_blank"
                   className=" p flex gap-2"
                 >
                   <LuPhone size={26} className="text-primary" />
-                  (27) 9 9921-4912
+                  (27) 9 9617-3620
                 </Link>
               </li>
               <li>

@@ -43,7 +43,7 @@ const Aboult = () => {
               viewport={{ once: false, amount: 0.05 }}
             >
               <p className="p">
-                Sou Psicóloga, CRP 16/09385, com experiência em atendimentos clínicos e psicodiagnóstico. Atendo crianças, adolescentes e adultos.
+                Sou Psicóloga, CRP 16/09385, com experiência em atendimentos clínicos e psicodiagnóstico. Atendo adolescentes, adultos e idosos.
               </p>
               <p className="p">
                 Aprecio a simplicidade, a natureza, gosto de artesanato e de estar comigo mesma. Gosto também de desafios, de ir além. Sou bastante investigativa e costumo transpor o que está posto em busca de respostas. Acho sempre melhor usar vírgulas e interrogações, pois as afirmações podem sugerir ponto final.

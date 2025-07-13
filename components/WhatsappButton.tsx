@@ -7,7 +7,7 @@ interface Props {
 
 const WhatsappButton = ({ title, containerStyle = '' }: Props) => {
   const handleClick = () => {
-    const whatsappLink = "https://wa.me/5527999214912?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
+    const whatsappLink = "https://wa.me/5527996173620?text=Olá,%20Andréia!%20Cheguei%20aqui%20por%20meio%20do%20seu%20site.%20Gostaria%20de%20marcar%20uma%20consulta."
 
     window.open(whatsappLink, "_blank")
   }

@@ -28,13 +28,13 @@ const Footer = () => {
           </h3>
 
           <div className="flex flex-col gap-1 justify-center items-center">
-            <span className="p">Telefone: (27) 9 9921-4912 </span>
+            <span className="p">Telefone: (27) 9 9617-3620 </span>
           </div>
 
           <ul className="flex items-center justify-center gap-6">
             <li>
               <Link
-                href="tel:+5527999214912"
+                href="tel:+5527996173620"
                 target="_blank"
                 className=" p flex gap-2"
               >

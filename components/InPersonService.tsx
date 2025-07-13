@@ -57,10 +57,7 @@ const InPersonService = () => {
                 Aqui, você encontrará auxílio para se conhecer melhor, superar seus desafios, explorar e entender suas emoções e pensamentos. Você também poderá elaborar estratégias para lidar com as dificuldades, buscar soluções para seus problemas, desenvolver habilidades e elevar sua autoestima, além de melhorar a qualidade de seus relacionamentos interpessoais e familiares, fortalecer sua saúde mental e qualidade de vida.
               </p>
               <p className="p">
-                Na terapia infantil, as crianças encontram um espaço lúdico, onde podem expressar seus sentimentos e emoções através das brincadeiras. O ato de brincar abrange tanto o desenvolvimento psicomotor quanto o cognitivo e emocional das crianças. Portanto, a brincadeira, além de divertir, é um instrumento de análise e intervenção clínica, contribuindo fundamentalmente para o trabalho terapêutico, podendo também ser utilizada com adolescentes e adultos.
-              </p>
-              <p className="p">
-                Na orientação de pais, o acolhimento, a empatia e a promoção de desenvolvimento de vínculos familiares saudáveis são imprescindíveis. Assim como na terapia infantil, me disponho a visitar escolas ou outros ambientes, caso seja necessário para as intervenções.
+                Na orientação de pais, o acolhimento, a empatia e a promoção de desenvolvimento de vínculos familiares saudáveis são imprescindíveis.
               </p>
             </motion.div>
           </div>
