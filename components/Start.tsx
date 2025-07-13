@@ -32,7 +32,7 @@ const Start = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
           >
-            Psicóloga Clínica de crianças, adolescentes e adultos em Vila Velha/ES -  CRP 16/09385
+            Psicóloga Clínica de adolescentes, adultos e idosos em Vila Velha/ES -  CRP 16/09385
           </motion.p>
         </div>
         <motion.div
